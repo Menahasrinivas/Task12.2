@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task12.2</title>
+    <link rel -"icon" href="assets/icon.png"/>
+    <title>weather</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light py-0">
-        <span class="navbar-brand font-weight-bold">
-            <span class="font-size: 20px;font-family: cursive;">C<span style="font-size: 35px;font-family: cursive;">ATS</span></span></Span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class ="container">
+        <div class="head">
+            <input type="text" class="city" placeholder="Enter Your City" />
+            <input type="submit" class="search" value="search"/>
 
-    </nav>
-    <main>
-        
-    </main>
+        </div>
+    <hr/>
+    <div class ="Info">
+        <div>
+            <h1 class="Time"></h1>
+        </div>
+        <div class="content">
+            <p  class ="temp">Area :<span id ="area"></span></p>
+            <p  class ="temp">Weather :<span id ="wState"></span></p>
+            <p  class ="temp">Temperature :<span id ="temp"></span></p>
+            <p  class ="temp">Wind :<span id ="Wind"></span></p>
+        </div>
+  </div>
 
-    <script src="./script.js"></script>
+    </div>
+<script src="./script"></script>
 </body>
 </html>
