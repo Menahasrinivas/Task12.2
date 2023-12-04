@@ -10,12 +10,9 @@ console.log(cities);
 search.addEventListener("click",function(){
     let url =
             "https://api.openweathermap.org/data/2.5/weather?q=" +
-    cities.value +
+    cities.value + todayTime.value + wind.speed.unit +
     "&appid=429a23dee47c5972025ec631391cc139";
 
-
-   
-    // "&appid=429a23dee47c5972025ec631391cc139";
      //app id:429a23dee47c5972025ec631391cc139
 fetch(url)
 .then((response)=>response.json())
@@ -38,7 +35,7 @@ wind.innerHTML = `${windSpeed} kmph`;
 console.log(cityName);
 console.log(weatherState);
 console.log(temperature);
-console.log(windSpeed,"kmph");
+console.log(windSpeed, "kmph");
 
 
 })
