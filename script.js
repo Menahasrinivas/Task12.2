@@ -10,7 +10,7 @@ console.log(cities);
 search.addEventListener("click",function(){
     let url =
             "https://api.openweathermap.org/data/2.5/weather?q=" +
-    cities.value + todayTime.value +
+    cities.value + 
     "&appid=429a23dee47c5972025ec631391cc139";
 
      //app id:429a23dee47c5972025ec631391cc139
