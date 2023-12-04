@@ -1,9 +1,10 @@
 *{
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background-color:antiquewhite;
     display: flex;
     align-items: center;
     height: 100vh;
@@ -33,11 +34,12 @@ body{
     padding: 15px;
     margin-right: 20px;
 }
-.city, .search{
+.city,
+ .search{
     border: none;
     font-size: 1rem;
     border-radius: 5px;
-    background-color: rgba(244, 255, 23,0.3);
+    background-color: white;
     box-shadow: 0px 2px 10px;
 }
 .search{
@@ -49,7 +51,7 @@ body{
 hr{
     background-color: rgba(116, 111, 111, 0.1);
     width:100%;
-    border: 2px solid #000;
+    border: 2px solid lightseagreen;
     border-radius: 5px;
     margin: 20px 20px;
 }
@@ -71,7 +73,7 @@ hr{
 .content{
     display: flex;
     flex-direction: column;
-    background-color:rgba(24, 23, 23, 0.1);
+    background-color:antiquewhite;
     padding: 15px;
     
     border-radius: 5px;
@@ -82,7 +84,8 @@ filter: drop-shadow(1px 3px 5px #000);
 .cloud{
     height: 30px;
     width: 30px;
-    margin-left: 10px;
+    margin-left: 40px;
+   
 
 }
 .info > p {
